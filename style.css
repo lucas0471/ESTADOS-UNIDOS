@@ -31,6 +31,14 @@ body {
 #capa {
     width: 100%;
     float: center;
+    top: 0px;
+}
+
+.topo {
+    color: black;
+    text-align: right;
+    font-weight: bolder;
+    font-size: 2em;
 }
 
 header { 
@@ -41,7 +49,7 @@ header {
 .titulo {
     color:#230083;
     text-align: center;
-    margin: 10px;
+    margin: 10px;    
 }
 
 h1 {
@@ -84,6 +92,11 @@ p {
     font-size: 1.05em;
     margin-top: 5px;
     margin-bottom: 5px;
+}
+
+.selecao {
+    height: 200px;
+    justify-content: center;
 }
 
 li {
@@ -216,7 +229,7 @@ td {
 }
 td, li {
     color: black;
-    vertical-align: middle;
+    vertical-align:middle;
 }
 
 .topicos {
@@ -248,11 +261,6 @@ h4 {
     font-size: 1.05em;
 }
 
-#rodape {
-    width: 100%;
-    float: center;
-}
-
 .vertical {
     height: 250px;
     width: 2px;
@@ -274,11 +282,8 @@ h4 {
 .absolute {
     height: 10px;
     width: 140px;
-    border: 1px solid blue;
-    background-color: blueviolet;
     position: absolute;
-    top: 20px;
-    right:20px;   
+    top: 0px;   
 }
 
 .fixed {
@@ -297,4 +302,15 @@ h4 {
     position: sticky;
     top: 0px;
     left: 150px;
+}
+
+footer {
+    text-align: center;
+    font-size: 13px;
+}
+
+#rodape {
+    width: 5%;
+    margin: 20cm bottom;
+    margin-bottom: 5mm;
 }
