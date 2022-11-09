@@ -313,6 +313,8 @@ h4 {
 footer {
     text-align: center;
     font-size: 13px;
+    border: white solid 1px;
+    background-color: rgb(160, 0, 0);
 }
 
 #rodape {
