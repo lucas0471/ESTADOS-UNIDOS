@@ -304,6 +304,12 @@ h4 {
     left: 150px;
 }
 
+.copyright {
+    color:  #000000;
+    text-align: center;
+    font-size: 0.5em;
+}
+
 footer {
     text-align: center;
     font-size: 13px;
@@ -314,3 +320,4 @@ footer {
     margin: 20cm bottom;
     margin-bottom: 5mm;
 }
+
