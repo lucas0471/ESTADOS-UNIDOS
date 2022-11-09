@@ -22,7 +22,7 @@ nav a:hover {
 body {
     margin: 0;
     padding: 0;
-    background-image:url("6208259-blank-space-united-states-flag-background-grátis-vetor.jpg") ;
+    background-image:url("imagens/blank-space-united-states-flag-background-free-vector.jpg") ;
     line-height: 1.5;
     text-align: center;
     font-family: sans-serif;
@@ -34,12 +34,12 @@ body {
 }
 
 header { 
-    background-image:url("imagens/fundo9.webp");
+    background-image:url("");
     position:static;
 }
 
 .titulo {
-    color: #ffffff;
+    color:#230083;
     text-align: center;
     margin: 10px;
 }
@@ -57,7 +57,7 @@ h2 {
 }
 
 .titulo2 {
-    color: #ffffff;
+    color:#230083;
     text-align: center;
     margin: 10px;
     border: 1px dotted white;
@@ -68,7 +68,7 @@ div {
 }
 
 h3 {
-    color:  #ffffff;
+    color:#230083;
     margin-left: 40px;
     margin-right: 20px;
     text-align: justify;
@@ -77,7 +77,7 @@ h3 {
 }
 
 p {
-    color:  #ffffff;
+    color:  #000000;
     margin-left: 40px;
     text-align: justify;
     margin-right: 20px;
@@ -87,7 +87,7 @@ p {
 }
 
 li {
-    color:  #ffffff;
+    color:  #000000;
     margin-left: 40px;
     margin-right: 20px;
     text-align: justify;
