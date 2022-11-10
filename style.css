@@ -315,12 +315,7 @@ footer {
     font-size: 13px;
     border: white solid 1px;
     background-color: rgb(160, 0, 0);
-    padding: 5px;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
 }
-
-#rodape {
-    width: 5%;
-    margin: 20cm bottom;
-    margin-bottom: 5mm;
-}
-
