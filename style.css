@@ -26,9 +26,10 @@ body {
     text-align: center;
     font-family: sans-serif;
     background-image:url("imagens/blank-space-united-states-flag-background-free-vector.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
+    background-repeat:repeat-y;
+    background-size: 100%;
+    background-position: left top;
+    border-color: #ffffff;
 }
 
 #capa {
