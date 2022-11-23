@@ -1,28 +1,45 @@
+* {
+    margin: 0;
+    padding: 0 0 0 0;
+    box-sizing: 0;
+}
+nav {
+    position:absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    float: right;
+    background-color: black;
+    padding: 0px 5px 0px 0px;
+}
 nav li {
     display: inline;
     font: 1.1em sans-serif;
     float: right;
-    margin: 15px 0 0 15px;
+    margin: 0 0 0 0;
     text-decoration: none;
+    padding: 5px 0 0 15px;    
 }
 
 nav a {
-    color: rgb(0, 0, 0);
+    color: rgba(0, 0, 0, 0);
     text-transform: uppercase;
     font-weight: bold;
     font-size: 18px;
     text-decoration: none;
+    padding: 0 0 0 0;
 }
 
 nav a:hover {
     font-size: 18px;
-    color: rgb(255, 255, 255);
+    color:red;
+    padding: 0 0 0 0;
 }
 
 body {
-    margin: 0;
-    padding: 0;
-    line-height: 1.5;
+    margin: 0px;
+    padding: 0px;
+    line-height: 1.5em;
     text-align: center;
     font-family: sans-serif;
     background-image:url("imagens/blank-space-united-states-flag-background-free-vector.jpg");
@@ -35,7 +52,7 @@ body {
 #capa {
     width: 100%;
     float: center;
-    top: 0px;
+    margin: 20px 0px 0px 0px;
 }
 
 .topo {
