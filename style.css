@@ -22,7 +22,7 @@ nav li {
 }
 
 nav a {
-    color: rgba(0, 0, 0, 0);
+    color: white;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 18px;
@@ -42,17 +42,12 @@ body {
     line-height: 1.5em;
     text-align: center;
     font-family: sans-serif;
-    background-image:url("imagens/blank-space-united-states-flag-background-free-vector.jpg");
-    background-repeat:repeat-y;
-    background-size: 100%;
-    background-position: left top;
-    border-color: #ffffff;
 }
 
 #capa {
     width: 100%;
     float: center;
-    margin: 20px 0px 0px 0px;
+    margin: 5.9px 0px 0px 0px;
 }
 
 .topo {
@@ -63,8 +58,13 @@ body {
     position:static;
 }
 
-header { 
-    background-image:url("");
+main { 
+    background-image:url("imagens/blank-space-united-states-flag-background-free-vector.jpg");
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-attachment:fixed;    
+    background-position: center center;
+    border-color:white;
 }
 
 .titulo {
