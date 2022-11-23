@@ -42,6 +42,12 @@ body {
     line-height: 1.5em;
     text-align: center;
     font-family: sans-serif;
+    background-image:url("imagens/blank-space-united-states-flag-background-free-vector.jpg");
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-attachment:fixed;    
+    background-position: center center;
+    border-color:white;
 }
 
 #capa {
@@ -56,15 +62,6 @@ body {
     font-weight: bolder;
     font-size: 1em;
     position:static;
-}
-
-main { 
-    background-image:url("imagens/blank-space-united-states-flag-background-free-vector.jpg");
-    background-size: cover;
-    background-repeat:no-repeat;
-    background-attachment:fixed;    
-    background-position: center center;
-    border-color:white;
 }
 
 .titulo {
